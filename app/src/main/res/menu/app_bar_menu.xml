@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/settings"
+        android:title="settings"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/download"
+        android:title="Downloads"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/contact"
+        android:title="Cantact"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/notification"
+        android:title="Notification"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/message"
+        android:title="Message"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/sender"
+        android:title="Sender"
+        app:showAsAction="never"/>
+
+</menu>
